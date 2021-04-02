@@ -1,0 +1,43 @@
+.sq1,.sq2,.sq3,.sq4,.sq5,.sq6{
+    position: absolute;
+    margin: 1em;
+    width: 200px;
+    height: 200px;
+}
+.sq1{
+    top:0;
+    left:0;
+    background-color: mediumpurple;
+}
+.sq2{
+    top:0;
+    right:0;
+    background-color: peru;
+    }
+.sq3{
+    bottom:0;
+    left:0;
+    background-color:rgb(7, 110, 7);
+}
+.sq4{  
+    bottom:0;
+    right:0;
+    background-color: palevioletred;
+}
+.sq5{
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: blue;
+
+}
+    
+.sq6{
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: red;
+    z-index: 2;
+    margin-left: 30px;
+    margin-top: 30px;
+}
